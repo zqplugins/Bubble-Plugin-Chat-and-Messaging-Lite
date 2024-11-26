@@ -1,0 +1,48 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Chat Bubble",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1551917817457x284871199343110100/message.png",
+    "fields": {
+        "AAE": {
+            "caption": "text",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "BackgroundColor",
+            "editor": "Color",
+            "name": "backgroundcolor",
+            "rank": 1
+        },
+        "AAH": {
+            "caption": "Boarder Radius",
+            "editor": "StaticText",
+            "name": "border_radius",
+            "rank": 2
+        },
+        "AAI": {
+            "caption": "Bubble Alignment",
+            "default_val": "left",
+            "editor": "Dropdown",
+            "in_style": false,
+            "name": "bubble_alignment",
+            "options": "left,right",
+            "rank": 3
+        }
+    },
+    "icon": "ion-chatbubble",
+    "property_applications": {
+        "Font": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}
